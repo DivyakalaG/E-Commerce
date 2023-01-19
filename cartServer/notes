@@ -1,0 +1,42 @@
+#) api fetch  -fakestoreapi/products
+#) Create Db and collection in mongodb
+
+1) Create package.json - npm init
+2) Create nodemodules - Install express - npm i express
+3) Create index.js file
+----------------------------------------------------------------------------------------------------
+
+index.js
+--------
+1) import express inside the index.js
+2) using express create an appl
+3) setup port number
+
+*1) Use json parser for server application
+
+4) Install cors - npm i cors
+5) Import cors
+6) using cors specify origin to the server(integration)-->http://localhost:4200
+7) Install mongoose to establish connection btw server and mongodb
+   npm i mongoose
+8) Create a folder - Services and create two files
+     db.js and dataService.js
+
+db.js
+---------
+1) Import mongoose to establish connection
+2) Define connection string
+3) Create Model and schema
+4) Export model
+
+dataService
+---------------
+1) import db, create a function and export it
+(again back to index.js *)
+
+------------------------------------------------------------------------------------------------------------
+20 Resolving API requests in index.js
+index+dataservice
+Node + Mongodb connection successful...
+21 Final step
+ //Api to get all products
